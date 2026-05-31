@@ -1,0 +1,96 @@
+[
+  {
+    "id": "wsu-ai-du122025",
+    "title": "AI Agent(s) for Enrollment Management – Student Services",
+    "institution": "Washington State University",
+    "source": "HigherGov / WSU WEBS",
+    "source_url": "https://www.highergov.com/sl/contract-opportunity/wa-ai-agent-s-for-enrollment-management-60776711",
+    "pdf_path": "data/pdfs/wsu-ai-agents.pdf",
+    "due_date": "2026-01-16",
+    "status": "Closed - representative example",
+    "product_fit": "Enrollment",
+    "secondary_fit": "Advisor",
+    "is_higher_ed": true,
+    "has_domain_fit": true,
+    "has_workflow_fit": true,
+    "has_expansion_potential": true,
+    "has_strategic_value": true,
+    "mentions_ai": true,
+    "summary": "WSU seeks autonomous AI agents for recruitment, enrollment communications, 24/7 student/family support, and future retention/advising workflows.",
+    "why_it_matches": [
+      "Core enrollment-management domain — Risely's primary product area",
+      "Recruitment outreach, FAFSA nudges, and 24/7 support are agent-ownable workflows",
+      "Explicit retention and advising expansion into the Advisor product",
+      "High strategic value through WIPHE cooperative purchasing"
+    ],
+    "risks": [
+      "Requires Slate CRM integration",
+      "Requires multilingual 24/7 communication",
+      "Requires transcript evaluation capability",
+      "Requires references at similar public four-year institutions"
+    ],
+    "recommended_action": "GO — strong fit for Risely Enrollment, with Advisor as the expansion path."
+  },
+  {
+    "id": "ucb-advising-platform-2026",
+    "title": "Student Advising & Retention Support Platform",
+    "institution": "University of Colorado Boulder",
+    "source": "CU Boulder Procurement",
+    "source_url": "",
+    "pdf_path": "",
+    "due_date": "2026-07-15",
+    "status": "Illustrative example",
+    "product_fit": "Advisor",
+    "secondary_fit": "",
+    "is_higher_ed": true,
+    "has_domain_fit": true,
+    "has_workflow_fit": true,
+    "has_expansion_potential": false,
+    "has_strategic_value": false,
+    "mentions_ai": true,
+    "summary": "CU Boulder seeks a platform to support academic advising, proactively flag at-risk students, and reduce advisor caseload through workflow automation.",
+    "why_it_matches": [
+      "Squarely in Risely's advising / student-success domain",
+      "At-risk outreach and caseload reduction are agent-ownable workflows",
+      "Reducing advisor load maps directly to the Advisor product",
+      "Automation framing means a shorter education curve on the AI angle"
+    ],
+    "risks": [
+      "Framed as an analytics platform — autonomous-agent value still needs to be sold",
+      "EAB Navigate and Civitas are likely incumbent competitors",
+      "No cooperative purchasing vehicle mentioned",
+      "Single-institution buyer limits strategic value"
+    ],
+    "recommended_action": "MAYBE — strong domain fit for Advisor. Lead with workflow outcomes and expect to sell the agent angle against incumbents."
+  },
+  {
+    "id": "allegheny-advancement-crm-2026",
+    "title": "Donor Relations & Alumni Engagement CRM Replacement",
+    "institution": "Allegheny College",
+    "source": "Allegheny College Purchasing",
+    "source_url": "",
+    "pdf_path": "",
+    "due_date": "2026-06-20",
+    "status": "Illustrative example",
+    "product_fit": "Advancement",
+    "secondary_fit": "",
+    "is_higher_ed": true,
+    "has_domain_fit": true,
+    "has_workflow_fit": false,
+    "has_expansion_potential": false,
+    "has_strategic_value": false,
+    "mentions_ai": false,
+    "summary": "Allegheny College seeks to replace its legacy donor CRM with a modern platform for alumni engagement tracking, gift officer activity management, and campaign reporting.",
+    "why_it_matches": [
+      "Sits in Risely's advancement / alumni-engagement domain",
+      "Higher-ed institutional buyer"
+    ],
+    "risks": [
+      "Scope is a system-of-record (CRM) replacement, not an engagement workflow an agent could own",
+      "Small private liberal arts college — limited deal size",
+      "Raiser's Edge and Salesforce Nonprofit are likely targets",
+      "No agent-ownable workflow in scope today"
+    ],
+    "recommended_action": "PASS — in our field, but it's a CRM swap rather than an agent opportunity. Re-engage if a future RFP describes donor outreach or engagement automation."
+  }
+]
