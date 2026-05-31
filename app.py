@@ -7,9 +7,18 @@ import streamlit as st
 
 try:
     from dotenv import find_dotenv, load_dotenv
-    load_dotenv(find_dotenv(usecwd=True))  # walks up from cwd to find .env
+    load_dotenv(find_dotenv(usecwd=True))
 except ImportError:
     pass
+
+# Streamlit Cloud stores secrets in st.secrets — pull them into os.environ
+# so the rest of the app (including tavily_search.py) can use os.environ consistently.
+for _k in ("TAVILY_API_KEY", "ANTHROPIC_API_KEY"):
+    if _k not in os.environ:
+        try:
+            os.environ[_k] = st.secrets[_k]
+        except (KeyError, FileNotFoundError):
+            pass
 
 from ingest import append_web_rfp, load_rfps, load_rfps_from_web, load_saved_web_rfps
 from scorer import score_rfp
